@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0E30951E64C00200CD0DD2 /* The_Black_Box-FFP.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE0E30941E64C00200CD0DD2 /* The_Black_Box-FFP.ttf */; };
+		DE0E30971E64CF4400CD0DD2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E30961E64CF4400CD0DD2 /* Category.swift */; };
+		DE0E30991E64CF5300CD0DD2 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E30981E64CF5300CD0DD2 /* CategoryItem.swift */; };
+		DE0E309B1E65F71700CD0DD2 /* RecentOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E309A1E65F71700CD0DD2 /* RecentOrderViewController.swift */; };
+		DE21765A1E6886C60034A83A /* RecentOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2176591E6886C60034A83A /* RecentOrderTableViewCell.swift */; };
+		DE21765C1E688D520034A83A /* RecentOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE21765B1E688D520034A83A /* RecentOrder.swift */; };
+		DE21765E1E6A55BA0034A83A /* Woodcutter Tags on a Rope.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE21765D1E6A55BA0034A83A /* Woodcutter Tags on a Rope.ttf */; };
+		DE2176601E6A582E0034A83A /* KGChasingCars.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE21765F1E6A582E0034A83A /* KGChasingCars.ttf */; };
+		DE99616B1E63E94700A0C086 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99616A1E63E94700A0C086 /* CartViewController.swift */; };
+		DE99616D1E63E96C00A0C086 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99616C1E63E96C00A0C086 /* CartTableViewCell.swift */; };
+		DE99616F1E63F07000A0C086 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99616E1E63F07000A0C086 /* CartItem.swift */; };
+		DE9961711E646A0F00A0C086 /* ManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9961701E646A0F00A0C086 /* ManageViewController.swift */; };
+		DEC1EC581E5CDA26000661F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC1EC571E5CDA26000661F1 /* AppDelegate.swift */; };
+		DEC1EC5D1E5CDA26000661F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC1EC5B1E5CDA26000661F1 /* Main.storyboard */; };
+		DEC1EC5F1E5CDA26000661F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEC1EC5E1E5CDA26000661F1 /* Assets.xcassets */; };
+		DEC1EC621E5CDA26000661F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC1EC601E5CDA26000661F1 /* LaunchScreen.storyboard */; };
+		DEC1EC6A1E5CDB6C000661F1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC1EC691E5CDB6C000661F1 /* MainViewController.swift */; };
+		DEC1EC6C1E5CEA3F000661F1 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC1EC6B1E5CEA3F000661F1 /* CategoryCell.swift */; };
+		DEC1EC701E5F480D000661F1 /* KGDefyingGravity.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEC1EC6F1E5F480D000661F1 /* KGDefyingGravity.ttf */; };
+		DEC1EC731E5F48B6000661F1 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC1EC721E5F48B6000661F1 /* CategoryViewController.swift */; };
+		DEC1EC751E5F4BF8000661F1 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC1EC741E5F4BF8000661F1 /* CategoryTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE0E30941E64C00200CD0DD2 /* The_Black_Box-FFP.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The_Black_Box-FFP.ttf"; sourceTree = "<group>"; };
+		DE0E30961E64CF4400CD0DD2 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		DE0E30981E64CF5300CD0DD2 /* CategoryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		DE0E309A1E65F71700CD0DD2 /* RecentOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentOrderViewController.swift; sourceTree = "<group>"; };
+		DE2176591E6886C60034A83A /* RecentOrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentOrderTableViewCell.swift; sourceTree = "<group>"; };
+		DE21765B1E688D520034A83A /* RecentOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentOrder.swift; sourceTree = "<group>"; };
+		DE21765D1E6A55BA0034A83A /* Woodcutter Tags on a Rope.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Woodcutter Tags on a Rope.ttf"; sourceTree = "<group>"; };
+		DE21765F1E6A582E0034A83A /* KGChasingCars.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KGChasingCars.ttf; sourceTree = "<group>"; };
+		DE99616A1E63E94700A0C086 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		DE99616C1E63E96C00A0C086 /* CartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		DE99616E1E63F07000A0C086 /* CartItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		DE9961701E646A0F00A0C086 /* ManageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageViewController.swift; sourceTree = "<group>"; };
+		DEC1EC541E5CDA26000661F1 /* ShopME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC1EC571E5CDA26000661F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEC1EC5C1E5CDA26000661F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEC1EC5E1E5CDA26000661F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEC1EC611E5CDA26000661F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEC1EC631E5CDA26000661F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC1EC691E5CDB6C000661F1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DEC1EC6B1E5CEA3F000661F1 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		DEC1EC6F1E5F480D000661F1 /* KGDefyingGravity.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KGDefyingGravity.ttf; sourceTree = "<group>"; };
+		DEC1EC721E5F48B6000661F1 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		DEC1EC741E5F4BF8000661F1 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEC1EC511E5CDA26000661F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEC1EC4B1E5CDA26000661F1 = {
+			isa = PBXGroup;
+			children = (
+				DEC1EC561E5CDA26000661F1 /* ShopME */,
+				DEC1EC551E5CDA26000661F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEC1EC551E5CDA26000661F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEC1EC541E5CDA26000661F1 /* ShopME.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEC1EC561E5CDA26000661F1 /* ShopME */ = {
+			isa = PBXGroup;
+			children = (
+				DEC1EC711E5F4812000661F1 /* Fonts */,
+				DEC1EC571E5CDA26000661F1 /* AppDelegate.swift */,
+				DE0E30961E64CF4400CD0DD2 /* Category.swift */,
+				DE0E30981E64CF5300CD0DD2 /* CategoryItem.swift */,
+				DE99616E1E63F07000A0C086 /* CartItem.swift */,
+				DE99616C1E63E96C00A0C086 /* CartTableViewCell.swift */,
+				DE99616A1E63E94700A0C086 /* CartViewController.swift */,
+				DE21765B1E688D520034A83A /* RecentOrder.swift */,
+				DE2176591E6886C60034A83A /* RecentOrderTableViewCell.swift */,
+				DE0E309A1E65F71700CD0DD2 /* RecentOrderViewController.swift */,
+				DEC1EC6B1E5CEA3F000661F1 /* CategoryCell.swift */,
+				DEC1EC741E5F4BF8000661F1 /* CategoryTableViewCell.swift */,
+				DEC1EC721E5F48B6000661F1 /* CategoryViewController.swift */,
+				DE9961701E646A0F00A0C086 /* ManageViewController.swift */,
+				DEC1EC691E5CDB6C000661F1 /* MainViewController.swift */,
+				DEC1EC5B1E5CDA26000661F1 /* Main.storyboard */,
+				DEC1EC5E1E5CDA26000661F1 /* Assets.xcassets */,
+				DEC1EC601E5CDA26000661F1 /* LaunchScreen.storyboard */,
+				DEC1EC631E5CDA26000661F1 /* Info.plist */,
+			);
+			path = ShopME;
+			sourceTree = "<group>";
+		};
+		DEC1EC711E5F4812000661F1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DE21765F1E6A582E0034A83A /* KGChasingCars.ttf */,
+				DE21765D1E6A55BA0034A83A /* Woodcutter Tags on a Rope.ttf */,
+				DEC1EC6F1E5F480D000661F1 /* KGDefyingGravity.ttf */,
+				DE0E30941E64C00200CD0DD2 /* The_Black_Box-FFP.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEC1EC531E5CDA26000661F1 /* ShopME */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC1EC661E5CDA26000661F1 /* Build configuration list for PBXNativeTarget "ShopME" */;
+			buildPhases = (
+				DEC1EC501E5CDA26000661F1 /* Sources */,
+				DEC1EC511E5CDA26000661F1 /* Frameworks */,
+				DEC1EC521E5CDA26000661F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopME;
+			productName = ShopME;
+			productReference = DEC1EC541E5CDA26000661F1 /* ShopME.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEC1EC4C1E5CDA26000661F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Wes Bosman";
+				TargetAttributes = {
+					DEC1EC531E5CDA26000661F1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GV7EE9PX98;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DEC1EC4F1E5CDA26000661F1 /* Build configuration list for PBXProject "ShopME" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEC1EC4B1E5CDA26000661F1;
+			productRefGroup = DEC1EC551E5CDA26000661F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEC1EC531E5CDA26000661F1 /* ShopME */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEC1EC521E5CDA26000661F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE21765E1E6A55BA0034A83A /* Woodcutter Tags on a Rope.ttf in Resources */,
+				DEC1EC621E5CDA26000661F1 /* LaunchScreen.storyboard in Resources */,
+				DE0E30951E64C00200CD0DD2 /* The_Black_Box-FFP.ttf in Resources */,
+				DEC1EC5F1E5CDA26000661F1 /* Assets.xcassets in Resources */,
+				DEC1EC701E5F480D000661F1 /* KGDefyingGravity.ttf in Resources */,
+				DEC1EC5D1E5CDA26000661F1 /* Main.storyboard in Resources */,
+				DE2176601E6A582E0034A83A /* KGChasingCars.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEC1EC501E5CDA26000661F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE99616D1E63E96C00A0C086 /* CartTableViewCell.swift in Sources */,
+				DE0E30971E64CF4400CD0DD2 /* Category.swift in Sources */,
+				DEC1EC731E5F48B6000661F1 /* CategoryViewController.swift in Sources */,
+				DE99616F1E63F07000A0C086 /* CartItem.swift in Sources */,
+				DEC1EC581E5CDA26000661F1 /* AppDelegate.swift in Sources */,
+				DE21765C1E688D520034A83A /* RecentOrder.swift in Sources */,
+				DE21765A1E6886C60034A83A /* RecentOrderTableViewCell.swift in Sources */,
+				DEC1EC6A1E5CDB6C000661F1 /* MainViewController.swift in Sources */,
+				DE0E309B1E65F71700CD0DD2 /* RecentOrderViewController.swift in Sources */,
+				DE9961711E646A0F00A0C086 /* ManageViewController.swift in Sources */,
+				DEC1EC6C1E5CEA3F000661F1 /* CategoryCell.swift in Sources */,
+				DE99616B1E63E94700A0C086 /* CartViewController.swift in Sources */,
+				DE0E30991E64CF5300CD0DD2 /* CategoryItem.swift in Sources */,
+				DEC1EC751E5F4BF8000661F1 /* CategoryTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEC1EC5B1E5CDA26000661F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEC1EC5C1E5CDA26000661F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEC1EC601E5CDA26000661F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEC1EC611E5CDA26000661F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEC1EC641E5CDA26000661F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEC1EC651E5CDA26000661F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEC1EC671E5CDA26000661F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GV7EE9PX98;
+				INFOPLIST_FILE = ShopME/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcu.ShopME;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DEC1EC681E5CDA26000661F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GV7EE9PX98;
+				INFOPLIST_FILE = ShopME/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcu.ShopME;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEC1EC4F1E5CDA26000661F1 /* Build configuration list for PBXProject "ShopME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC1EC641E5CDA26000661F1 /* Debug */,
+				DEC1EC651E5CDA26000661F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC1EC661E5CDA26000661F1 /* Build configuration list for PBXNativeTarget "ShopME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC1EC671E5CDA26000661F1 /* Debug */,
+				DEC1EC681E5CDA26000661F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEC1EC4C1E5CDA26000661F1 /* Project object */;
+}
